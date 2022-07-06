@@ -1,0 +1,18 @@
+npx cypress run --record --spec "feature file path"
+ ./node_modules/.bin/cypress-tags run -g 'cypress/integration/**/*.feature'
+
+./node_modules/.bin/cypress open
+./node_modules/.bin/cypress run --headed
+./node_modules/.bin/cypress run --browser chrome
+./node_modules/.bin/cypress run --browser firefox
+./node_modules/.bin/cypress run --browser edge
+
+//URL from Commond Line
+./node_modules/.bin/cypress run --spec "cypress/integration/BDD/login.feature" --env qa_url=https://google.com --headed
+
+
+6mbya2
+npx cypress run --record --key c2c25acf-fa5e-4057-b885-4d77a8ef918f
+
+
+git push -u origin master

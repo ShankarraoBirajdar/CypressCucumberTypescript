@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "username": "",
+        "password": ""
+    },
+    "qa": {
+        "username": "shankarrao",
+        "password": "Shankar16@"
+    },
+    "uat": {
+        "username": "",
+        "password": ""
+    }
+}

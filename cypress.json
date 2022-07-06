@@ -1,1 +1,31 @@
-{ "testFiles": "**/*.feature" }
+{
+    "projectId": "6mbya2",
+    "testFiles": "**/*.{feature,features}",
+    "integrationFolder": "cypress/integration",
+    "pluginsFile": "cypress/plugins",
+    "screenshotsFolder": "cypress/reports/screenshots",
+    "supportFile": "cypress/support",
+    "fixturesFolder": "cypress/fixtures",
+    "trashAssetsBeforeRuns": true,
+    "video": false,
+    "videoCompression": 32,
+    "videoUploadOnPasses": false,
+    "videosFolder": "cypress/reports/videos",
+    "viewportHeight": 768,
+    "viewportWidth": 1366,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "taskTimeout": 60000,
+    "requestTimeout": 5000,
+    "responseTimeout": 30000,
+    "execTimeout": 60000,
+    "ignoreTestFiles": "*.{js,ts}",
+    "modifyObstructiveCode": false,
+    "chromeWebSecurity": false,
+    "numTestsKeptInMemory": 50,
+    "env": {
+        "dev_url":"",
+        "qa_url": "https://demoqa.com/",
+        "uat_url":""
+    }
+}

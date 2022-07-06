@@ -1,0 +1,24 @@
+// check Version
+node -v
+npm -version
+npx cypress --version
+tsc.cmd -version
+
+//create Directory
+mkdir e2e
+//move to Directory
+cd e2e
+
+npm init -y
+
+npm install cypress typescript
+
+npx tsc --init --types cypress --lib dom,es6
+
+echo {} > cypress.json
+npm install --save-dev cypress-cucumber-preprocessor
+npm install -D cypress-xpath
+
+
+
+

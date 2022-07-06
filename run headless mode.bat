@@ -1,0 +1,1 @@
+call npx cypress run

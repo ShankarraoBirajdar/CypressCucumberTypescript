@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User want to login into QATool",
+    "line": 1,
+    "id": "user-want-to-login-into-qatool",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "user-want-to-login-into-qatool;validate-login-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validate Login Scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I Visit to QA Tools Application",
+            "result": {
+              "status": "passed",
+              "duration": 16070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I Login to QA Tools Application",
+            "result": {
+              "status": "passed",
+              "duration": 31794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click the \"pannelElementGroup\" of \"commonLocators\" with replace value \"Forms\"",
+            "result": {
+              "status": "passed",
+              "duration": 3479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click the \"spanPracticeForm\" of \"commonLocators\"",
+            "result": {
+              "status": "passed",
+              "duration": 3711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter \"Shankarrao\" in \"txtFirstName\" of \"practiceFormScreen\"",
+            "result": {
+              "status": "passed",
+              "duration": 7946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter \"Birajdar\" in \"txtLastName\" of \"practiceFormScreen\"",
+            "result": {
+              "status": "passed",
+              "duration": 7714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter \"skbirajdar10@gmail.com\" in \"txtEmail\" of \"practiceFormScreen\"",
+            "result": {
+              "status": "passed",
+              "duration": 8850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select the radiobutton \"rdInput\" of \"commonLocators\" with replace value \"Male\"",
+            "result": {
+              "status": "passed",
+              "duration": 583000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

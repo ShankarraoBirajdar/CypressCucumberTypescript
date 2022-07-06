@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "testHeaded": "node_modules\\.bin\\cypress open",
+    "testHeadless": "node_modules\\.bin\\cypress run",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "testChrome": "npm run testHeaded -- --browser chrome",
+    "testFireFox": "npm run testHeaded -- --browser firefox",
+    "testEdge": "npm run testHeadled -- --browser edge",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
@@ -17,18 +22,29 @@
   "license": "ISC",
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "stepDefinitions": "cypress/integration/",
+    "step_definitions": "cypress/integration/BDD/stepdefination",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cucumber_json"
     }
   },
   "dependencies": {
-    "cypress": "^6.0.1",
-    "typescript": "^4.1.2"
+    "cypress": "^6.9.1",
+    "tsify": "^5.0.4",
+    "typescript": "^4.2.4"
   },
   "devDependencies": {
     "cosmiconfig": "^7.0.0",
-    "cypress-cucumber-preprocessor": "^4.0.0"
-  }
+    "cypress-cucumber-preprocessor": "^4.1.0",
+    "cypress-xpath": "^1.6.2",
+    "multiple-cucumber-html-reporter": "^1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShankarraoBirajdar/CypressCucumberTypescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShankarraoBirajdar/CypressCucumberTypescript/issues"
+  },
+  "homepage": "https://github.com/ShankarraoBirajdar/CypressCucumberTypescript/blob/Master/README.md"
 }

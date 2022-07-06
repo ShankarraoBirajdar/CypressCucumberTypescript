@@ -1,0 +1,28 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "loginScreen":{
+    "txtUsername":"//input[@id='userName']",
+    "txtPassword":"//input[@id='password']",
+    "btnLogin":"//button[@id='login']",
+    "rdRadioButton":"",
+    "chkCheckBox":"",
+    "dteDate":"",
+    "drpDropDown":"",
+    "lnkLink":"",
+    "lblLabel":""
+  },
+  "practiceFormScreen":{
+    "txtFirstName":"//input[@id='firstName']",
+    "txtLastName":"//input[@id='lastName']",
+    "txtEmail":"//input[@id='userEmail']"
+  },
+  "commonLocators":{
+    "rdInput":"//input[@name='gender' and @value='<option>']",
+    "txtInput":"//input[@id='<option>']",
+     "pannelCategoryCards":"//div[@class='card mt-4 top-card']//h5[contains(.,'<option>')]",
+     "pannelElementGroup":"//div[@class='element-group']//span[contains(.,'<option>')]",
+     "spanPracticeForm":"//span[contains(.,'Practice Form')]"
+  }
+}
