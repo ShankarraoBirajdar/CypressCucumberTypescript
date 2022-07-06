@@ -1,4 +1,4 @@
-Link: https://www.youtube.com/watch?v=n3SvvZSWwfM&list=PLYvdvJlnTOjGStNFSoHzrbW8Gb-2TpCTX&index=2
+
 
 mkdir CypressTypeScript
 
@@ -12,7 +12,7 @@ npx tsc --init --types cypress --lib dom,es6
 
 echo {} > cypress.json
 
-cd cypress/integration/basic.ts
+
 
 
     it('Should perform basic google search', () => {
